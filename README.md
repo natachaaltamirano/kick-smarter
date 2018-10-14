@@ -24,10 +24,10 @@ The recommendations are based on 4 classifiers algorithm's feature importance (p
    5. [Feature extraction of raw HTML](https://github.com/natachaaltamirano/kick-smarter/blob/master/D_Feature_engeneering_from_raw_HTML.ipynb)
    6. [Analysis of the data](https://github.com/natachaaltamirano/kick-smarter/blob/master/E_Feature_analysis.ipynb)
    7. [Model training and predictions](https://github.com/natachaaltamirano/kick-smarter/blob/master/F_Models.ipynb)
-- A [Web app](https://github.com/natachaaltamirano/kick-smarter/tree/master/Flask_web_app) folder contains the Flask app for [kick-smarter.net](www.kick-smarter.net) deployed in AWS using Bootstrap.
+- A [Web app](https://github.com/natachaaltamirano/kick-smarter/tree/master/Flask_web_app) folder  that contains the Flask app for [kick-smarter.net](http://www.kick-smarter.net) deployed in AWS using Bootstrap.
 - Two Python modules used by the [Web app](https://github.com/natachaaltamirano/kick-smarter/tree/master/Flask_web_app):
    1. `feature_extraction.py` contains all functions used for extraction of features
    2. `plots.py` contains code that generates the plot for feature suggestions. 
 
-- The trained Random Forest classifier used in the [Web App](https://github.com/natachaaltamirano/kick-smarter/tree/master/Flask_web_app)
+- The trained Random Forest classifier used in the [Web App](https://github.com/natachaaltamirano/kick-smarter/tree/master/Flask_web_app).
 
