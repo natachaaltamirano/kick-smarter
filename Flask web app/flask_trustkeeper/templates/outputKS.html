@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title> KICK-SMARTER</title>
+    <!--title>{{title}} - microblog</title>
+    <!-- Bootstrap core CSS -->
+    <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../static/css/scrolling-nav.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger text-info" href="http://www.kick-smarter.net">KICK - SMARTER</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="bg-info text-light">
+      <div class="container text-center">
+
+
+        <h1>Helping make your campaign a success!</h1>
+        <p class="lead"> All you need to do is <b> enter your campaign's
+          url </b> and explore the results. Good luck!</p>
+      </div>
+
+      <div class="col-md-10 col-lg-8 col-xl-7 mx-auto" >
+        <form>
+          <div class="form-row">
+            <div class="col-12 col-md-9 mb-2 mb-md-0">
+              <input type="url" class="form-control form-control-lg text-secondary"
+              placeholder={{kurl}}>
+            </input>
+            </div>
+
+            <div class="col-12 col-md-3">
+              <button type="submit" class="btn btn-block btn-lg btn-ptimary text-white">Try me!</button>
+            </div>
+          </div>
+      </form>
+      <br><br>
+      <div class="container text-center text-warning">
+
+        <h2>Your campaign has <b>{{perc}} </b> chance of being funded!</h2>
+      </div>
+    </div>
+    <br><br>
+    <div class="container text-center text-light">
+      <p class="lead"> Here you have some tips to improve your campaign!</p>
+    </div>
+
+    <div class"columns align-items-center">
+      <img class="rounded mx-auto d-block" style="width:70%" src="{{url_for('static',filename=variable_name)}}">
+    </div>
+
+    <div class="container text-center text-warning">
+
+    <h6> * This is a percentaje value over the total number of words</h6>
+
+    </div>
+    <br><br>
+    <div class="col-lg-8 mx-auto text-warning">
+      <h4>You can also consider the following tips </h4>
+      <ul>
+        <li> If you don't have a "risks" section we advise to include. Campaings with this section improve their chances of being funded =)</li>
+        <li>Consider including some of these "pitch" words:</li>
+      </ul>
+      <img class="rounded mx-auto d-block" style="width:70%" src="/static/pitch.jpg">
+    </div>
+    </header>
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>About this page </h2>
+            <p class="lead">Kick-Smarter is a machine learning tool designed to predict the succes of your campaign and
+              to give you advise on how to make it better. You can find the product pitch in the slides below</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <div class='embed-responsive' style='padding-bottom:70%'>
+              <object data='/static/Natacha_Altamirano_week4DemoN2.pdf' type='application/pdf' width='100%' height='100%'></object>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="contact" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Contact</h2>
+          </div>
+
+        </div>
+        <div class="col-lg-8 mx-auto text-center">
+          <div class="btn-group">
+            <a href="https://www.linkedin.com/in/naltamirano/" class="btn btn-info" role="button">Linkedin</a>
+            <a href="https://github.com/natachaaltamirano" class="btn btn-info" role="button">GitHub</a>
+            <a href="http://www.kick-smarter.net/resume" class="btn btn-info" role="button">Resume</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; KICK -SMARTER 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../static/vendor/jquery/jquery.min.js"></script>
+    <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../static/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="../static/js/scrolling-nav.js"></script>
+
+  </body>
+
+</html>
