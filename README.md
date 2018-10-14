@@ -12,15 +12,15 @@ The predictions are based on a random forest classifiers that studies 22 meta an
 
 The recommendations are based on 4 classifiers algorithm's feature importance (precision weighted) to minimize false positives.
 
-**Note:**Kick-smarter engine is based on US campaigns that have goals less than $10,000.
+**Note:** Kick-smarter engine is based on US campaigns that have goals less than $10,000.
 
 
 ## Resources
 - Jupyter notebooks to illustrate the pipeline of construction for the  Kick-Smarter engine
-   1. [Getting meta data](https://github.com/natachaaltamirano/kick-smarter/blob/master/A%20-%20scrape%20using%20the%20avilable%20data.ipynb)
-   2. [Scraping Kickstarter project pages]()
-   3. [Engineering meta features and building a training set]()
-   4. [Uploading data into PostgreSQL]()
+   1. [Getting meta data](https://github.com/natachaaltamirano/kick-smarter/blob/master/A_Metafeatures_using_avilable_data.ipynb)
+   2. [Cleaning of meta data](https://github.com/natachaaltamirano/kick-smarter/blob/master/B_Further_cleaning.ipynb)
+   3. [Scrape HTML of meta campaign](https://github.com/natachaaltamirano/kick-smarter/blob/master/C_Use_meta_data_to_scrape_web.ipynb)
+   4. [Module for feature engineering](https://github.com/natachaaltamirano/kick-smarter/blob/master/D2_Saving_functions_as_pyfile_feature_extraction.ipynb)
    5. [Exploring the meta feature space]()
    6. [Training a model]()
    7. [Suggesting how a project can be improved]()
